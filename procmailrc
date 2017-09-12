@@ -1,7 +1,11 @@
 MAILDIR=$HOME/.mail
 DEFAULT=$MAILDIR/inbox/
 LOGFILE=$MAILDIR/procmail.log
-VERBOSE=on
-inbox.spool
+VERBOSE=yes
+LOGABSTRACT=yes
+#inbox.spool
+:0 c
+/var/mail/ll
+
 
 
